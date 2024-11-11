@@ -26,10 +26,15 @@ LOGS =>
 
 */
 
-function triangles() {
-  
+function triangles(number) {
+  //output array to hold triangle
+  //let output = [];
+  //creating for loop to iterate through inputted value and return "#" for each iteration
+  for (let i = 0; i < number.length; i++){
+    console.log('#')
+  }
 }
-
+console.log(triangles(8))
 
 ////////////////////////////////////////////////////////////////////////////////
 // fizzBuzz ////////////////////////////////////////////////////////////////////
