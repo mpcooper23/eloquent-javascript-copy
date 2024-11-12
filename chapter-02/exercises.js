@@ -29,12 +29,11 @@ LOGS =>
 function triangles() {
 
   //output index?
-  let result = '#'
+  //let result = '#'
   //creating for loop to iterate through inputted value and return "#" for each iteration
-  for (let i = 0; i < 8; i++){
-    result += result++
+  for (let line = '#'; line.length < 8; line += '#'){
+ console.log(line)
   }
-  return result
 }
 console.log(triangles(8))
 
@@ -52,10 +51,22 @@ on the number:
   - if the number is divisible by 5, log "buzz"
   - if the number is divisible by both 3 & 5, log "fizzbuzz"
   - if the number is not divisible by 3 or 5, log the number
+
+  I:
+  O:
 */
 
 function fizzBuzz(start, end) {
-  
+  //for loop to iterate 
+  for(let i = start; i < end; i++){
+    if(){
+
+    }else if(){
+
+    }else if(){
+
+    }
+  }
 }
 
 ////////////////////////////////////////////////////////////////////////////////
