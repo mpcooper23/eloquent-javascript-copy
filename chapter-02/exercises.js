@@ -27,15 +27,11 @@ LOGS =>
 */
 
 function triangles() {
-
-  //output index?
-  //let result = '#'
   //creating for loop to iterate through inputted value and return "#" for each iteration
-  for (let line = '#'; line.length < 8; line += '#')
- console.log(line)
-  
+  for (let line = '#'; line.length < 8; line += '#'){console.log(line)}
 }
 console.log(triangles())
+
 
 ////////////////////////////////////////////////////////////////////////////////
 // fizzBuzz ////////////////////////////////////////////////////////////////////
