@@ -24,6 +24,10 @@ LOGS =>
 ####
 #####
 
+I:
+O:
+C:
+E:
 */
 
 function triangles() {
