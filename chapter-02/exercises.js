@@ -25,17 +25,23 @@ LOGS =>
 #####
 
 I: number parameter
-O:
+O: number determines the size of the triangle
 C: each level of the triangle needs to be logged individually. 
 E:
 */
 
 function triangles() {
   //creating for loop to iterate through inputted value and return "#" for each iteration
-  for (let line = '#'; line.length < 8; line += '#'){console.log(line)}
+  for (let line = '#'; line.length = '#'; line += '#'){console.log(line)}
 }
-console.log(triangles())
-
+console.log(triangles(1))
+console.log(triangles(2))
+console.log(triangles(3))
+console.log(triangles(4))
+console.log(triangles(5))
+console.log(triangles(6))
+console.log(triangles(7))
+console.log(triangles(8))
 
 ////////////////////////////////////////////////////////////////////////////////
 // fizzBuzz ////////////////////////////////////////////////////////////////////
