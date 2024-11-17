@@ -24,9 +24,9 @@ LOGS =>
 ####
 #####
 
-I:
+I: number parameter
 O:
-C:
+C: each level of the triangle needs to be logged individually. 
 E:
 */
 
