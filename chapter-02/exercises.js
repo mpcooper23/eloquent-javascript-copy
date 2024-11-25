@@ -60,12 +60,14 @@ on the number:
 function fizzBuzz(start, end) {
   //for loop to iterate 
   for(let i = start; i < end; i++){
-    if(){
-
-    }else if(){
-
-    }else if(){
-
+    if(num % 3 === 0 && num % 5 === 0){
+console.log('fizzbuz')
+    }else if(num % 3 !== 0 && num % 5 !== 0){
+console.log(num)
+    }else if(num % 3 === 0){
+console.log('fizz')
+    }else if (num % 5 === 0){
+console.log('buzz')
     }
   }
 }
