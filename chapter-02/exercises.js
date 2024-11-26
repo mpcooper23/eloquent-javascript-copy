@@ -35,8 +35,8 @@ string = '#'
   while (string.length < 8){
    console.log(string);
    string += '#';
+   //console.log(string)
   }
-  console.log(string)
 }
 
 
