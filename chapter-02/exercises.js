@@ -32,11 +32,10 @@ E:
 
 function triangles() {
 string = '#'
-  while (string.length <= 8){
-   console.log(string)
-   string = string + '#'
+  while (string.length < 8){
+   console.log(string);
+   string += '#';
   }
-   
 }
 
 
