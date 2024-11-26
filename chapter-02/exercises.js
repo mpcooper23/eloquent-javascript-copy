@@ -53,8 +53,8 @@ on the number:
   - if the number is divisible by both 3 & 5, log "fizzbuzz"
   - if the number is not divisible by 3 or 5, log the number
 
-  I:
-  O:
+  I: start, end, both of which are number data
+  O: logging different statements based on conditional chain statement
 */
 
 function fizzBuzz(start, end) {
