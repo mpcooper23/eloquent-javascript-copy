@@ -30,11 +30,13 @@ C: each level of the triangle needs to be logged individually.
 E:
 */
 
-function triangles(num) {
-  //creating for loop to iterate through inputted value and return "#" for each iteration
-  for (let line = '#'; line.length < num; line += '#'){
-    console.log(line)
+function triangles() {
+string = '#'
+  while (string.length <= 8){
+   console.log(string)
+   string = string + '#'
   }
+   
 }
 
 
