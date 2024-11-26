@@ -38,7 +38,7 @@ string = '#'
    //console.log(string)
   }
 }
-
+console.log(triangles(8))
 
 ////////////////////////////////////////////////////////////////////////////////
 // fizzBuzz ////////////////////////////////////////////////////////////////////
@@ -61,9 +61,9 @@ on the number:
 
 function fizzBuzz(start, end) {
   //for loop to iterate 
-  for(let i = start; i < end; i++){
+  for(let num = start; num < end; num++){
     if(num % 3 === 0 && num % 5 === 0){
-console.log('fizzbuz')
+console.log('fizzbuzz')
     }else if(num % 3 !== 0 && num % 5 !== 0){
 console.log(num)
     }else if(num % 3 === 0){
@@ -105,8 +105,11 @@ LOGS =>
 */
 
 function drawChessboard(x) {
-
-
+let x = '#' + ' ';
+while (x < 5){
+  console.log(x);
+  x += '#' + ' ';
+}
 }
 
 ////////////////////////////////////////////////////////////////////////////////
