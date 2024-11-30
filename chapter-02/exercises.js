@@ -33,9 +33,9 @@ E:
 function triangles() {
 string = '#'
   while (string.length < 8){
-   console.log(string);
+   //console.log(string);
    string += '#';
-   //console.log(string)
+   console.log(string)
   }
 }
 console.log(triangles(8))
