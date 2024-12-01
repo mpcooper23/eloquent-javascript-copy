@@ -24,22 +24,17 @@ LOGS =>
 ####
 #####
 
-I: number parameter
-O: number determines the size of the triangle
-C: each level of the triangle needs to be logged individually. 
-E:
+//I: number parameter
+//o: number determines the size of the triangle
+//C: each level of the triangle needs to be logged individually. 
+//E:
 */
 
-function triangles() {
-string = '#'
-  while (string.length < 8){
-   //console.log(string);
-   string += '#';
-   console.log(string)
+function triangles(num) {
+for (let triangle = "#"; triangle < num; triangle.length += "#"){
+   console.log(triangle);
   }
 }
-console.log(triangles(8))
-
 ////////////////////////////////////////////////////////////////////////////////
 // fizzBuzz ////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
@@ -59,7 +54,7 @@ on the number:
   O: logging different statements based on conditional chain statement
 */
 
-function fizzBuzz(start, end) {
+/*function fizzBuzz(start, end) {
   //for loop to iterate 
   for(let num = start; num < end; num++){
     if(num % 3 === 0 && num % 5 === 0){
@@ -72,7 +67,7 @@ console.log('fizz')
 console.log('buzz')
     }
   }
-}
+}*/
 
 ////////////////////////////////////////////////////////////////////////////////
 // drawChessboard //////////////////////////////////////////////////////////////
@@ -104,13 +99,13 @@ LOGS =>
 
 */
 
-function drawChessboard(x) {
+/*function drawChessboard(x) {
 let x = '#' + ' ';
 while (x < 5){
   console.log(x);
   x += '#' + ' ';
 }
-}
+}*/
 
 ////////////////////////////////////////////////////////////////////////////////
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
