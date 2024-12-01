@@ -54,7 +54,7 @@ on the number:
   O: logging different statements based on conditional chain statement
 */
 
-/*function fizzBuzz(start, end) {
+function fizzBuzz(start, end) {
   //for loop to iterate 
   for(let num = start; num < end; num++){
     if(num % 3 === 0 && num % 5 === 0){
@@ -67,7 +67,7 @@ console.log('fizz')
 console.log('buzz')
     }
   }
-}*/
+}
 
 ////////////////////////////////////////////////////////////////////////////////
 // drawChessboard //////////////////////////////////////////////////////////////
@@ -99,13 +99,13 @@ LOGS =>
 
 */
 
-/*function drawChessboard(x) {
+function drawChessboard(x) {
 let x = '#' + ' ';
 while (x < 5){
   console.log(x);
   x += '#' + ' ';
 }
-}*/
+}
 
 ////////////////////////////////////////////////////////////////////////////////
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
