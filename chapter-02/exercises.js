@@ -30,9 +30,13 @@ LOGS =>
 //E:
 */
 
+
+
 function triangles(num) {
-for (let triangle = "#"; triangle < num; triangle.length += "#"){
+  let triangle = '#';
+for (let i = 0; i < num; i++){
    console.log(triangle);
+   triangle += '#'
   }
 }
 ////////////////////////////////////////////////////////////////////////////////
@@ -56,15 +60,15 @@ on the number:
 
 function fizzBuzz(start, end) {
   //for loop to iterate 
-  for(let num = start; num < end; num++){
-    if(num % 3 === 0 && num % 5 === 0){
+  for(let i = start; i <= end; i++){
+    if(i % 3 === 0 && i % 5 === 0){
 console.log('fizzbuzz')
-    }else if(num % 3 !== 0 && num % 5 !== 0){
-console.log(num)
-    }else if(num % 3 === 0){
+    }else if(i % 3 === 0){
 console.log('fizz')
-    }else if (num % 5 === 0){
+    }else if (i % 5 === 0){
 console.log('buzz')
+    }else{
+      console.log(i)
     }
   }
 }
@@ -99,12 +103,18 @@ LOGS =>
 
 */
 
-function drawChessboard(x) {
-let x = '#' + ' ';
-while (x < 5){
-  console.log(x);
-  x += '#' + ' ';
+function drawChessboard(size) {
+let board = '';
+for(let row = 0; row < size; row++){
+  for(let col = 0; col < size; col++){
+    if((row + col) % 2 === 0){
+      board += '';
+    }else {board += '#';
+  }
 }
+board += '\n'
+}
+console.log(board)
 }
 
 ////////////////////////////////////////////////////////////////////////////////
